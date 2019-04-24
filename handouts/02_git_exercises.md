@@ -86,7 +86,7 @@
    
 ## Merging
 
-- we will now parallel universes together
+- we will now bring parallel universes together
 - switch back to the master branch with `git checkout master`
 - merge the changes into the master branch with `git merge silly_try`
   - if we are lucky git will merge automatically
@@ -98,9 +98,27 @@
 
 ## Resolving merge conflicts
 
+### General information
+
 - when a conflict occurs and git cannot merge automatically, it creates a new file in which both changes are kept side by side
 - the user must then decide by hand which changes to keep or how to merge
 - use will find tools of your taste for doing this by searching the internet
+
+### Creating and resolving a conflict
+
+- make sure you are in branch `master`
+- edit part of the first line of `mynotes.md`
+- commit the changes
+- switch to branch `silly_try`
+- edit *another* part of the first line of `mynotes.md`
+- commit the changes
+- switch back to branch `master`
+- merge the changes from `silly_branch` into `master`
+  - use: `git merge silly_branch`
+- you will now see a message about merge conflicts
+- open `mynotes.md` and fix the conflict manually
+- then commit your changes as usual
+
 
 # Working with a remote repository
 
