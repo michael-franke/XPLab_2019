@@ -588,6 +588,77 @@ results %>% spread(key = 'what', value = 'howmuch')
 
 </div>  
 
+# ggplot
+
+## Layered grammar of graphics
+
+<div style = "float:left; width:45%;">
+- structured description language for plots (relevant for data science)  
+- smart system of defaults  
+- multiple layers:
+    - data + transformation + geom. object + aesthetics
+</div>
+<div style = "float:right; width:45%;">
+- basic components:
+    - data
+    - coordinate system
+    - statistical transformation
+        - means, standard errors, bins, ...
+    - scales
+        - continuous, discrete, ...
+    - geometric object
+        - how to visualize the data (points, bars, lines, ...)
+    - aesthetic mapping
+        - point shape, size, color, ...
+    - facets
+</div>  
+
+<div style = "position:absolute; top: 620px; right:60px;">
+  for background see [Wickham (2010)]()
+</div>
+
+## example
+
+<div style = "float:left; width:45%;">
+
+<span style = "color:firebrick">fully explicit</span>
+
+```{r}
+ggplot() +
+  layer(
+    data = diamonds,
+    mapping = aes(x = carat, y = price),
+    geom = "point",
+    stat = "identity",
+    position = "identity"
+  ) +
+  scale_x_continuous() +
+  scale_y_continuous() +
+  coord_cartesian()
+```  
+</div>
+<div style = "float:right; width:45%;">
+
+<span style = "color:firebrick">with syntactic sugar and defaults</span>
+
+```{r}
+diamonds %>% ggplot(aes(carat, price)) + geom_point()
+``` 
+</div>  
+
+
+
+## general structure of a `ggplot` call
+
+<div align = 'center'>
+  <img src="pics/ggplot2_cheat.png" alt="screenshot_cheat_sheet" style="width: 600px;"/>
+</div>
+
+<div style = "position:absolute; top: 620px; right:60px;">
+  from the [cheat sheet](https://www.rstudio.com/wp-content/uploads/2015/03/ggplot2-cheatsheet.pdf)
+</div>
+
+
 # Rmarkdown
 
 ## why Rmarkdown
@@ -711,35 +782,3 @@ LaTeX-style formulas will be rendered differently depending on the output method
 - HTML output uses [MathJax](https://math.meta.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference) to emulate LaTeX-like behavior
     - only LaTeX-packages & functionality emulated in JS will be available
 
-## Rmarkdown in your homework
-
-<span style = "color:white"> &nbsp; </span>
-
-do it all in one file `BDACM_HW1-LastnameFirstname.Rmd`
-
-use a header that generate HTML files like this:
-
-    ---
-    title: "My flawless first homework set"
-    date: 2018-11-30
-    output: html_document
-    ---
-
-follow the instructions given in the [first homework assignment](../homework/BDACM_HW1.html)
-
-send the `*.Rmd` and the `*.HTML` as a `*.zip`
-
-avoid using extra material not included in the `*.Rmd`
-
-# fini
-
-## homework
-
-<span style = "color:white"> &nbsp; </span>
-
-- dive into [R for Data Science](http://r4ds.had.co.nz)
-
-<span style = "color:white"> &nbsp; </span>
-
-- complete the [first homework assignment](../homework/BDACM_HW1.html) by Tuesday, November 6, 09:59 CET
-    - follow the instructions given in the assigment sheet!

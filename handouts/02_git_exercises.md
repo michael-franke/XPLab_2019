@@ -40,7 +40,7 @@
 
 ## Seeing changes between commits
 
-- you can see what changed **in all files** from COMMIT-1 to COMMIT-2 by typing `git diff mynotes.md COMMIT-1 COMMIT-2`
+- you can see what changed **in all files** from COMMIT-1 to COMMIT-2 by typing `git diff COMMIT-1 COMMIT-2 mynotes.md`
   - here COMMIT-x is the commit ID (which you find in the output of `git log`)
 - zoom in on changes in file `mynotes.md` with `git diff mynotes.md COMMIT-1 COMMIT-2 -- mynotes.md`
 - type `git log -p mynotes.md` to get a full change history of file `mynotes.md`
