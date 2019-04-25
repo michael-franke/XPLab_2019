@@ -187,3 +187,14 @@ d %>% filter(class == "Intro Cogn. Neuro-Psychology") # filters the students onl
 
 d %>% filter(class == "both") # filters the students enrolled in both classes
 ```
+
+# Analysis
+
+We are interested in comparing the RTs of correct answers in the congruent and incongruent conditions. We saw a difference in mean reaction times, but we'd like to know if this difference is meaningful. One way of testing this is by running a regression model, which tries to predict RTs as a function of conguency. In the simplest case we would therefore do this:
+
+```{r}
+model_simple = brm(RT ~ condition, filter(d, correctness == "correct"))
+summary(model_simple)
+```
+
+According to this analysis, there is reason to believe in a difference in RTs between congruent and incongruent groups. The coefficient estimated for the incongruent group is on average ca. 25 ms higher than that of the congruent group.
