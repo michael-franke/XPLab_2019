@@ -38,11 +38,15 @@ A total of `r d$submission_id %>% unique %>% length` participants took part in a
 
 ## Materials & Design
 
-Each trial started by showing a fixation cross for 200 ms in the center of the screen. Then, one of two geometrical shapes was shown for 500 ms. The **target shape** was either a blue square or a blue circle. The target shape appeared either on the left or right of the screen. Each trial determined uniformly at random which shape (square or circle) to show as target and where on the screen to display it (left or right). Participants where instructed to press keys `q` (left of keyboard) or `p` (right of keyboard) to identify the kind of shape on the screen. The shape-key allocation happened experiment initially, uniformly at random once for each participant and remained constant throughout the experiment. For example, a participant may have been asked to press `q` for square and `p` for circle. In each trial, if no key was pressed within 3 seconds after the appearance of the target shape, a message to please respond faster was displayed on screen.
+Each trial started by showing a fixation cross for 200 ms in the center of the screen. Then, one of two geometrical shapes was shown for 500 ms. The **target shape** was either a blue square or a blue circle. The target shape appeared either on the left or right of the screen. Each trial determined uniformly at random which shape (square or circle) to show as target and where on the screen to display it (left or right). Participants where instructed to press keys `q` (left of keyboard) or `p` (right of keyboard) to identify the kind of shape on the screen. The shape-key allocation happened experiment initially, uniformly at random once for each participant and remained constant throughout the experiment. For example, a participant may have been asked to press `q` for square and `p` for circle.
+
+Trials were categorized as either 'congruent' or 'incongruent'. They were congruent if the location of the stimulus was the same relative location as the response key (e.g. square on the right of the screen, and `p` key to be pressed for square) and incongruent if the stimulus was not in the same relative location as the response key (e.g. square on the right and `q` key to be pressed for square).
+
+In each trial, if no key was pressed within 3 seconds after the appearance of the target shape, a message to please respond faster was displayed on screen.
 
 ## Procedure
 
-Participants were first welcomed and made familiar with the experiment. They were told to optimize both speed and accuracy. They then practiced the task for 20 trials before starting the main task, which consisted of 100 trials. Finally, the experiment ended with a post-test survey in which participants were asked for their student IDs and the course they were enrolled in. They were also able to leave any optional comments.
+Participants were first welcomed and made familiar with the experiment. They were told to optimize both speed and accuracy. They then practiced the task for 20 trials before starting the main task, which consisted of 100 trials. Finally, the experiment ended with a post-test survey in which participants were asked for their student IDs and the class they were enrolled in. They were also able to leave any optional comments.
 
 # Results
 
@@ -115,7 +119,7 @@ d_individual_summary %>%
 
 We then clean the data set in a first step by removing all participants identified as outlier-y:
 
-```{r}
+```{r, message=TRUE}
 d <- full_join(d, d_individual_summary, by = "submission_id") # merge the tibbles
 d <- filter(d, outlier == FALSE)
 message("We excluded ", sum(d_individual_summary$outlier) , " participants for suspicious mean RTs and higher error rates.")
@@ -157,11 +161,11 @@ d_sum <- d %>%
 d_sum
 ```
 
-Here's a plot of the reaction times split up by whether the answer was correct and whether the trial was congruous or not. 
+Here's a plot of the reaction times split up by whether the answer was correct and whether the trial was congruent or incongruent. 
 
 ```{r}
 d %>% ggplot(aes(x = RT)) +
-  geom_jitter(aes(x = RT, y = 0.0005), alpha = 0.1, height = 0.0005) +
+  geom_jitter(aes(y = 0.0005), alpha = 0.1, height = 0.0005) +
   geom_density(fill = "gray", alpha = 0.5) +
   geom_vline(data = d_sum, 
              mapping = aes(xintercept = mean_RT), 
@@ -170,9 +174,16 @@ d %>% ggplot(aes(x = RT)) +
 ```
 
 
+## To be continued (for homework)
+The analysis above is very preliminary. We could do many more things (which we should pre-register or be explicit that they are exploratory). For example,
+the responses made by students enrolled in the different classes could differ.
+In the dataframe, there is a column `class`, which we could use to split the data into two groups to compare them (we already did this once when we described the sample).
 
+For example:
+```{r}
+d %>% filter(class == "Experimental Psych Lab") # filters the students only enrolled in Experimental Psych Lab
 
+d %>% filter(class == "Intro Cogn. Neuro-Psychology") # filters the students only enrolled in Experimental Psych Lab
 
-
-
-
+d %>% filter(class == "both") # filters the students enrolled in both classes
+```
