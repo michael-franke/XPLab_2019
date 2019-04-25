@@ -614,7 +614,7 @@ results %>% spread(key = 'what', value = 'howmuch')
 </div>  
 
 <div style = "position:absolute; top: 620px; right:60px;">
-  for background see [Wickham (2010)]()
+  for background see [Wickham (2010)](http://vita.had.co.nz/papers/layered-grammar.pdf)
 </div>
 
 ## example
