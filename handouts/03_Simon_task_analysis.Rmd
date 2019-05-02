@@ -198,3 +198,48 @@ summary(model_simple)
 ```
 
 According to this analysis, there is reason to believe in a difference in RTs between congruent and incongruent groups. The coefficient estimated for the incongruent group is on average ca. 25 ms higher than that of the congruent group.
+
+
+However, we can also look at the interaction between correctness and condition.
+As shown in the above graph, there are four different cells in a 2x2 grid.
+
+In the below model, this is coded with 'dummy coding' such that the top-left cell (congruent-correct) is the intercept, and each other cell is calculated by the addition of offsets.
+
+```{r}
+model_complex <- brm(RT ~ condition * correctness, d)
+```
+
+We may want to ask the question: are reaction times to correct-congruent responses shorter than reaction times to incorrect-incongruent responses?
+
+To do this, we first need to extract the posterior samples from our model.
+
+```{r}
+post_samples <- posterior_samples(model_complex) %>% 
+  as_tibble()
+```
+
+Then we need to determine the correct offsets to match the correct-congruent and incorrect-incongruent cells in the design matrix.
+
+```{r}
+
+# correct-congruent is the reference cell
+correct_congruent <- post_samples$b_Intercept
+
+# incorrect_incongruent is the bottom-right cell
+incorrect_incongruent <- post_samples$b_Intercept +
+  post_samples$b_conditionincongruent + 
+  post_samples$b_correctnessincorrect + 
+  post_samples$`b_conditionincongruent:correctnessincorrect`
+```
+
+ Once we know these, we can calculate the probability that the comparison is in the correct direction.
+ 
+```{r}
+prob_cc_lessthan_ii <- mean(correct_congruent < incorrect_incongruent)
+```
+ 
+**Homework: What does this value mean? Email the tutors your response by Thursday May 9, 09:59**
+
+
+
+
