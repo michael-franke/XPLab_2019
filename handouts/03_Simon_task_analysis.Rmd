@@ -235,10 +235,10 @@ incorrect_incongruent <- post_samples$b_Intercept +
  Once we know these, we can calculate the probability that the comparison is in the correct direction.
  
 ```{r}
-prob_cc_lessthan_ii <- mean(correct_congruent < incorrect_incongruent)
+mean(correct_congruent < incorrect_incongruent)
 ```
  
-**Homework: What does this value mean? Email the tutors your response by Thursday May 9, 09:59**
+**Homework: What does this value mean? Answer on Stud.IP VIPS before Thursday May 9, 09:00**
 
 
 
