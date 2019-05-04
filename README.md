@@ -16,7 +16,7 @@ session | day | topic | material
 5  | May 9 | experimental design ::: preregistration ::: \_babe | [\_babe](https://babe-project.github.io/babe_site/index.html)
 6  | May 16 | more \_babe :::  | [\_babe](https://babe-project.github.io/babe_site/index.html)
 7  | May 23 |  deployment ::: results of in-class exp ::: final paper |
-8  | May 30 |  project presentations |
+8  | June 6 |  project presentations |
 
 ## Links & resources
 
