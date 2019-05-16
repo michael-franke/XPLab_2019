@@ -14,7 +14,7 @@ session | day | topic | material
 3  | April 25 | data wrangling & visualizing in R | [R4DS](http://r4ds.had.co.nz), [slides](slides/03_R_intro.html), [homework](homework/XPLab_2019_HW2.html) [handout](handouts/03_Simon_task_analysis.html)
 4  | May 2 | analyzing data from an experiment | [tutorial](handouts/brm_tutorial.pdf)
 5  | May 9 | experimental design ::: \_babe | [design example](handouts/04_MentalRotation_design.pdf), [\_babe](https://babe-project.github.io/babe_site/index.html), [experiment stimuli](homework/mental_rotation_images.zip), [homework](homework/mental_rotation_hw.md)
-6  | May 16 | more \_babe ::: preregistration | [\_babe](https://babe-project.github.io/babe_site/index.html), [exercises](handouts/05_05_inclass_exercises.md)
+6  | May 16 | more \_babe ::: preregistration | [\_babe](https://babe-project.github.io/babe_site/index.html), [exercises](handouts/05_inclass_exercises.md)
 7  | May 23 |  exercises with \_babe and/or R |
 8  | May 23 |  deployment ::: results of in-class exp ::: final paper |
 9  | June 6 |  project presentations |
