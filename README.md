@@ -15,9 +15,8 @@ session | day | topic | material
 4  | May 2 | analyzing data from an experiment | [tutorial](handouts/brm_tutorial.pdf)
 5  | May 9 | experimental design ::: \_babe | [design example](handouts/04_MentalRotation_design.pdf), [\_babe](https://babe-project.github.io/babe_site/index.html), [experiment stimuli](homework/mental_rotation_images.zip), [homework](homework/mental_rotation_hw.md)
 6  | May 16 | more \_babe ::: preregistration | [\_babe](https://babe-project.github.io/babe_site/index.html), [exercises](handouts/05_inclass_exercises.md)
-7  | May 23 |  exercises with \_babe and/or R |
-8  | May 23 |  deployment ::: results of in-class exp ::: final paper |
-9  | June 6 |  project presentations |
+7  | May 23 |  analyzing data from an experiment II | [experiment](https://mental-rotation.netlify.com/), [task](handouts/06_mental_rotation_analysis.html)
+8  | June 6 |  deployment ::: results of in-class exp ::: final paper |
 
 ## Links & resources
 
