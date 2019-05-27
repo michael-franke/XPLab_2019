@@ -52,7 +52,7 @@ A guideline from designing an experiment until writing a report will follow.
 
 ## In more detail
 
-### Anchoring Effect{#anchoringEffect}
+### Anchoring Effect <a name="anchoringEffect"></a>
 #### $29 for 70 Items or 70 Items for $29? How Presentation Order Affects Package Perceptions (Bagchi & Davis, 2011) / Journal of Consumer Research
 *Keywords: Anchoring, Numerosity and Number Encoding, Ease of Computation*
 
@@ -86,7 +86,7 @@ To measure individual differences in thinking styles, we used Choi et al.'s (200
 Participants completed 11 anchoring tasks. Each task comprised a comparative question (e.g., "Do you think the length of the Mississippi River is more or less than 200 miles?") followed by a second question asking participants to make an absolute estimate (e.g., "What do you think the length of the Mississippi River [in miles] is?"). The number in the first question served as the anchor for each task.
 
 
-### Construal Level Effect (Psychological Distance; Abstractness){#construalLevel}
+### Construal Level Effect (Psychological Distance; Abstractness) <a name="construalLevel"></a>
 #### Abstractness leads people to base their behavioral intentions on desired attitudes (Carrera, Caballero, Fernández, & Munoz; 2017) / Journal of Experimental Social Psychology
 *Keywords: Desired attitudes, Construal level theory, Motivation, Abstraction, Behavioral intentions*
 
@@ -130,7 +130,7 @@ Participants were then randomly assigned to one of two anger instrumentality con
 Participants completed the emotional preferences measure, and rated both their current emotions and the goals they wanted to achieve during the interaction with their landlord.
 
 
-### Category-Learning{#categoryLearning}
+### Category-Learning <a name="categoryLearning"></a>
 #### Explanation Recruits Comparison in a Category-Learning Task (Edwards, Williams, Gentner, & Lombrozo; 2019) / Cognition
 *Keywords: Explanation, comparison, categorisation, learning*
 
@@ -166,7 +166,7 @@ After completing the rule-reporting phase, participants answered self-report que
 * "Did you notice yourself making comparisons between pairs of Glorp robots and pairs of Drent robots when the image of the eight robots was on-screen?"
 
 
-### Language{#language}
+### Language <a name="language"></a>
 #### Using a foreign language reduces mental imagery (Hayakawa & Keysar, 2018) / Cognition
 *Keywords: Bilingualism, Mental imagery, Foreign language*
 
@@ -177,7 +177,7 @@ We hypothesized that the use of a foreign language would diminish the vividness 
 Participants were randomly assigned to complete the experiment in the native language (here: English) or the foreign language (here: Spanish). Participants were then asked to try and mentally simulate 35 different sensory experiences across seven modalities that can be described as visual (e.g. "the sun as it is sinking below the horizon"), auditory (e.g. "the clapping of hands in applause"), tactile (e.g. "sand"), kinesthetic (e.g. "running upstairs"), gustatory (e.g. "salt"), olfactory (e.g. "fresh paint"), and organic (e.g. "a sore throat"). After each statement, participants were asked to rate the vividness of their mental simulations as one of the following options which were coded as 1 through 7: "no image", "very vague and dim", "vague and dim", "not clear, but recognizable", "moderately clear", "very clear" or "perfectly clear". Those in the foreign language condition additionally had an option to select "do not understand" for each item. Any item that received this response was excluded from that participant's analysis.
 
 
-### Art / Aesthetic perception{#art}
+### Art / Aesthetic perception <a name="art"></a>
 #### Give me gestalt! Preference for cubist artworks revealing high detectability of objects (Muth et al, 2012) / LEONARDO
 *Keywords: Gestalt, aesthetic perception, appreciation of art*
 
@@ -199,7 +199,7 @@ We found highest agreement for faces, followed by natural landscapes, and then l
 Rating task. Participants were asked to rate how aesthetically pleasing each image was, using a 7-point rating scale. Instructions were designed to encourage responses based on a participant's own aesthetic evaluation. Participants were instructed to make judgments based on how much they, individually, were "moved" by the images, and that they should imagine that their evaluations of the images would be used to help curate a collection of images in the given domain.
 Key-press task. The viewing time task was used to gauge subjective reward value of the images. Observers were allowed to control the amount of time each image was displayed in a procedure similar to that of Aharon et al. (2001). Participants were told they could control how long they spent looking at each image by pressing keys to increase or decrease viewing time, and that they should look only as long as they enjoyed doing so.
 
-### Photo / Face perception{#photo}	
+### Photo / Face perception <a name="photo"></a>
 #### What makes a face photo a "good likeness"? (Ritchie, Kramer & Burton; 2018) / Cognition
 *Keywords: Facial likeness; familiarity; iconic images; face averages; prototype; mental representation*
 
@@ -223,7 +223,7 @@ In Study 1, we randomly assigned participants to rate the trustworthiness or dom
 Consistent with our hypothesis that configural processing plays a greater role in inferences of human-specific traits, we predicted that the correlation between upright and inverted faces would be stronger for the dominance than trustworthiness ratings.
 
 
-### Task switches / Affective Priming{#taskSwitch}
+### Task switches / Affective Priming <a name="taskSwitch"></a>
 #### The affective twitches of task switches: Task switch cues are evaluated as negative (Vermeylen, Braem, & Notebaert, 2019) / Cognition
 *Keywords: Cognitive Control; Task Switching; Emotion; Affective Priming; Negative Affect*
 
@@ -234,7 +234,7 @@ Consistent with the recent theoretical frameworks mentioned above, and the idea 
 In the task switching paradigm, target stimuli consisted of 320 high-frequent words each presented only once. All words could be judged on whether they were living or non-living, and whether they were smaller or larger than a basketball (see also, Braem, 2017; Schneider, 2015). Both dimensions were crossed orthogonally resulting in four lists of 80 words (see OSF). The Dutch words for SWITCH, CHANGE, REPEAT and AGAIN (WISSEL, VERANDER HERHAAL, OPNIEUW) were used as transition cues. Participants had to alternate between tasks when they saw the words SWITCH or CHANGE and had to repeat the task when they saw the words REPEAT or AGAIN. Each combination of transition cue and task was equiprobable. On the first trial of each block, participants were shown which task to start with (ALIVE? or SIZE?). If participants made a mistake, they would receive the message "WRONG!" along with the task of the erroneous trial (ALIVE? or SIZE?).
 In the affective priming procedure, target stimuli consisted of 60 Chinese pictographs. Participants had to evaluate these targets as rather negative or rather positive with the opposite hand that was used during task switching (D for negative, F for positive; or J for negative, K for positive). The transition cues functioned as prime stimuli. The Stimulus Onset Asynchrony (SOA) between the prime and the target was varied because it is a potential moderator of the priming effect (Fritz & Dreisbach, 2015), and could be 200, 400 or 800 ms. Each of the prime - SOA combinations were equiprobable, and each of the Chinese pictographs was paired once with each transition cue. To ensure processing of the prime stimuli, catch trials were dispersed throughout the task: When participant saw the word "PAPER" (PAPIER), they had to press space bar instead of evaluating the target.
 
-### Magnitude / Number perception{#numbers}
+### Magnitude / Number perception <a name="numbers"></a>
 #### Compatibility between Physical Stimulus Size and Left-right Responses: Small is Left and Large is Right (Wühr & Seegelke, 2018) / Journal of Cognition
 *Keywords: ATOM; compatibility; congruency; stimulus size; response position; SNARC*
 
