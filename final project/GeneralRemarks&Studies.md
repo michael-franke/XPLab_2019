@@ -1,6 +1,6 @@
 # Proposals for Replications Studies from different fields
 
-##General Remarks
+## General Remarks
 Below you find some proposals for possible replication studies (you can find the corresponding articles on StudIP).
 You are of course also very welcome to come up with own studies that you would like to replicate. Insofar you are not bounded to these proposals.
 
@@ -20,40 +20,40 @@ Once you have understood the general aim you often can break down the hypotheses
 
 A guideline from designing an experiment until writing a report will follow.
 
-##Content
-####[Anchoring Effect](#anchoringEffect)
+## Content
+#### [Anchoring Effect](#anchoringEffect)
 1.	$29 for 70 Items or 70 Items for $29? How Presentation Order Affects Package Perceptions (Bagchi & Davis, 2011) / Journal of Consumer Research	
 2.	Holistic thinkers anchor less: Exploring the roles of self-construal and thinking styles in anchoring susceptibility (Cheek & Norem, 2016) / Personality and Individual Differences
 
-####[Construal Level Effect (Psychological Distance; Abstractness)](#construalLevel)
+#### [Construal Level Effect (Psychological Distance; Abstractness)](#construalLevel)
 3.	Abstractness leads people to base their behavioral intentions on desired attitudes (Carrera, Caballero, Fernández, & Munoz; 2017) / Journal of Experimental Social Psychology	
 4.	Emotions and the big picture: The effects of construal level on emotional preferences (Schwartz, Eyal, & Tamir; 2018) / Journal of Experimental Social Psychology	
 
-####[Category-Learning](#categoryLearning)
+#### [Category-Learning](#categoryLearning)
 5.	Explanation Recruits Comparison in a Category-Learning Task (Edwards, Williams, Gentner, & Lombrozo; 2019) / Cognition
 
-####[Language](#language)
+#### [Language](#language)
 6.	Using a foreign language reduces mental imagery (Hayakawa & Keysar, 2018) / Cognition	
 
-####[Art / Aesthetic perception](#art)
+#### [Art / Aesthetic perception](#art)
 7.	Give me gestalt! Preference for cubist artworks revealing high detectability of objects (Muth et al, 2012) / LEONARDO	
 8.	Stronger shared taste for natural aesthetic domains than for artifacts of human culture (Vessel, Maurer, Denker, & Starr; 2018) / Cognition	
 
-####[Photo / Face perception](#photo)
+#### [Photo / Face perception](#photo)
 9.	What makes a face photo a "good likeness"? (Ritchie, Kramer & Burton; 2018) / Cognition	
 10.	Configural processing and social judgments: Face inversion particularly disrupts inferences of human-relevant traits (Wilson, Young, Rule, & Hugenberg; 2018) / Journal of Experimental Social Psychology	
 
-####[Task switches / Affective Priming](#taskSwitch)
+#### [Task switches / Affective Priming](#taskSwitch)
 11.	The affective twitches of task switches: Task switch cues are evaluated as negative (Vermeylen, Braem, & Notebaert, 2019) / Cognition	
 
-####[Magnitude / Number perception](#numbers)
+#### [Magnitude / Number perception](#numbers)
 12.	Compatibility between Physical Stimulus Size and Left-right Responses: Small is Left and Large is Right (Wühr & Seegelke, 2018) / Journal of Cognition	
 
 
-##In more detail
+## In more detail
 
-###Anchoring Effect{#anchoringEffect}
-####$29 for 70 Items or 70 Items for $29? How Presentation Order Affects Package Perceptions (Bagchi & Davis, 2011) / Journal of Consumer Research
+### Anchoring Effect{#anchoringEffect}
+#### $29 for 70 Items or 70 Items for $29? How Presentation Order Affects Package Perceptions (Bagchi & Davis, 2011) / Journal of Consumer Research
 *Keywords: Anchoring, Numerosity and Number Encoding, Ease of Computation*
 
 **Hypothesis:**
@@ -73,7 +73,7 @@ The effect of order on perceptions will be moderated by package size and calcula
 The scenario indicated that a company introduced a web-based television service in which payment for access was by the hour. Consumers could purchase as many hours as they wished. We manipulated order by presenting price first (e.g., $300 for 600 hours) or item quantity first (e.g., 600 hours for $300). Larger packages used larger numerosities (600 or 580 hours) relative to the smaller packages (60 or 58 hours). Calculation difficulty was also manipulated between subjects. In the higher (lower) difficulty conditions, 580 hours cost $285.90 or 58 hours cost $28.59 (600 hours cost $300 or 60 hours cost $30).  This study used a 2 (order: price-item vs. item-price) x 2 (package size: larger vs. smaller) x 2 (calculation difficulty: higher vs. lower) full factorial between-subjects design.
 We asked participants to indicate how likely they were to try this offer (1 = not likely at all, 7 = very likely). We also asked participants to indicate how good a deal and how good a value they thought the service provided (both scales: 1 = not good at all, 7 = very good), and used these to create a composite perceived value score.  Additionally, participants indicated how many hours of programming were advertised in the offer (text entry), how much it cost (text entry), and whether it was difficult or easy to calculate the price per hour (1 = very difficult, 7 = very easy). These served as manipulation checks for the package size and calculation difficulty manipulations, respectively.
 
-####Holistic thinkers anchor less: Exploring the roles of self-construal and thinking styles in anchoring susceptibility (Cheek & Norem, 2016) / Personality and Individual Differences
+#### Holistic thinkers anchor less: Exploring the roles of self-construal and thinking styles in anchoring susceptibility (Cheek & Norem, 2016) / Personality and Individual Differences
 *Keywords: Anchoring, Self-construal, Analytic vs. holistic thinking styles*
 
 **Hypothesis:**
@@ -86,8 +86,8 @@ To measure individual differences in thinking styles, we used Choi et al.'s (200
 Participants completed 11 anchoring tasks. Each task comprised a comparative question (e.g., "Do you think the length of the Mississippi River is more or less than 200 miles?") followed by a second question asking participants to make an absolute estimate (e.g., "What do you think the length of the Mississippi River [in miles] is?"). The number in the first question served as the anchor for each task.
 
 
-###Construal Level Effect (Psychological Distance; Abstractness){#construalLevel}
-####Abstractness leads people to base their behavioral intentions on desired attitudes (Carrera, Caballero, Fernández, & Munoz; 2017) / Journal of Experimental Social Psychology
+### Construal Level Effect (Psychological Distance; Abstractness){#construalLevel}
+#### Abstractness leads people to base their behavioral intentions on desired attitudes (Carrera, Caballero, Fernández, & Munoz; 2017) / Journal of Experimental Social Psychology
 *Keywords: Desired attitudes, Construal level theory, Motivation, Abstraction, Behavioral intentions*
 
 **Hypothesis:** 
@@ -109,7 +109,7 @@ Participants reported the perceived stability of their actual and desired attitu
 
 These four stability items were averaged to create an abstraction index for each type of attitude for each topic, with higher scores indicating higher perceived stability. 
 
-####Emotions and the big picture: The effects of construal level on emotional preferences (Schwartz, Eyal, & Tamir; 2018) / Journal of Experimental Social Psychology
+#### Emotions and the big picture: The effects of construal level on emotional preferences (Schwartz, Eyal, & Tamir; 2018) / Journal of Experimental Social Psychology
 *Keywords: Emotion regulation, Self-regulation, Motivation, Construal level*
 
 **Background:**
@@ -130,8 +130,8 @@ Participants were then randomly assigned to one of two anger instrumentality con
 Participants completed the emotional preferences measure, and rated both their current emotions and the goals they wanted to achieve during the interaction with their landlord.
 
 
-###Category-Learning{#categoryLearning}
-####Explanation Recruits Comparison in a Category-Learning Task (Edwards, Williams, Gentner, & Lombrozo; 2019) / Cognition
+### Category-Learning{#categoryLearning}
+#### Explanation Recruits Comparison in a Category-Learning Task (Edwards, Williams, Gentner, & Lombrozo; 2019) / Cognition
 *Keywords: Explanation, comparison, categorisation, learning*
 
 **Hypothesis:**
@@ -166,8 +166,8 @@ After completing the rule-reporting phase, participants answered self-report que
 * "Did you notice yourself making comparisons between pairs of Glorp robots and pairs of Drent robots when the image of the eight robots was on-screen?"
 
 
-###Language{#language}
-####Using a foreign language reduces mental imagery (Hayakawa & Keysar, 2018) / Cognition
+### Language{#language}
+#### Using a foreign language reduces mental imagery (Hayakawa & Keysar, 2018) / Cognition
 *Keywords: Bilingualism, Mental imagery, Foreign language*
 
 **Hypothesis:**
@@ -177,8 +177,8 @@ We hypothesized that the use of a foreign language would diminish the vividness 
 Participants were randomly assigned to complete the experiment in the native language (here: English) or the foreign language (here: Spanish). Participants were then asked to try and mentally simulate 35 different sensory experiences across seven modalities that can be described as visual (e.g. "the sun as it is sinking below the horizon"), auditory (e.g. "the clapping of hands in applause"), tactile (e.g. "sand"), kinesthetic (e.g. "running upstairs"), gustatory (e.g. "salt"), olfactory (e.g. "fresh paint"), and organic (e.g. "a sore throat"). After each statement, participants were asked to rate the vividness of their mental simulations as one of the following options which were coded as 1 through 7: "no image", "very vague and dim", "vague and dim", "not clear, but recognizable", "moderately clear", "very clear" or "perfectly clear". Those in the foreign language condition additionally had an option to select "do not understand" for each item. Any item that received this response was excluded from that participant's analysis.
 
 
-###Art / Aesthetic perception{#art}
-####Give me gestalt! Preference for cubist artworks revealing high detectability of objects (Muth et al, 2012) / LEONARDO
+### Art / Aesthetic perception{#art}
+#### Give me gestalt! Preference for cubist artworks revealing high detectability of objects (Muth et al, 2012) / LEONARDO
 *Keywords: Gestalt, aesthetic perception, appreciation of art*
 
 **Background:**
@@ -188,7 +188,7 @@ In this paper we show that viewers' appreciation of cubist paintings is closely 
 Stimuli consisted of photographs of 120 cubist artworks by Pablo Picasso (47), Georges Braque (33), and Juan Gris (40). The study was structured in two blocks, each showing the stimuli in a randomized order. During the first block, subjects had to rate the pictures on liking. During the second block, participants rated how well they could detect objects within the artwork. All ratings were chosen from a 7-point-Likert-scale from 1 ('not at all') to 7 ('very').
 The results show that Gestalt formation	 is closely linked to appreciation; viewers much preferred paintings in which they were able to decipher concealed objects.
 
-####Stronger shared taste for natural aesthetic domains than for artifacts of human culture (Vessel, Maurer, Denker, & Starr; 2018) / Cognition
+#### Stronger shared taste for natural aesthetic domains than for artifacts of human culture (Vessel, Maurer, Denker, & Starr; 2018) / Cognition
 *Keywords: Aesthetics, Individual differences, Artwork, Architecture, Landscapes, Faces*
 
 **Background:**
@@ -199,8 +199,8 @@ We found highest agreement for faces, followed by natural landscapes, and then l
 Rating task. Participants were asked to rate how aesthetically pleasing each image was, using a 7-point rating scale. Instructions were designed to encourage responses based on a participant's own aesthetic evaluation. Participants were instructed to make judgments based on how much they, individually, were "moved" by the images, and that they should imagine that their evaluations of the images would be used to help curate a collection of images in the given domain.
 Key-press task. The viewing time task was used to gauge subjective reward value of the images. Observers were allowed to control the amount of time each image was displayed in a procedure similar to that of Aharon et al. (2001). Participants were told they could control how long they spent looking at each image by pressing keys to increase or decrease viewing time, and that they should look only as long as they enjoyed doing so.
 
-###Photo / Face perception{#photo}	
-####What makes a face photo a "good likeness"? (Ritchie, Kramer & Burton; 2018) / Cognition
+### Photo / Face perception{#photo}	
+#### What makes a face photo a "good likeness"? (Ritchie, Kramer & Burton; 2018) / Cognition
 *Keywords: Facial likeness; familiarity; iconic images; face averages; prototype; mental representation*
 
 **Background:**
@@ -212,7 +212,7 @@ In the ratings task, participants viewed all 75 images in a random order, and we
 Participants also rated the images for trustworthiness and dominance, the results of which are not presented here.
 Following the ratings task, participants completed a speeded name verification task (30 trials). A name was displayed on the screen for 1500 ms, and then replaced by an image which remained on the screen until response. On half of the trials, the face matched the name. Participants responded via button press, indicating whether the image showed the same person as the name or not, and were instructed to respond as quickly and as accurately as possible.
 
-####Configural processing and social judgments: Face inversion particularly disrupts inferences of human-relevant traits (Wilson, Young, Rule, & Hugenberg; 2018) / Journal of Experimental Social Psychology
+#### Configural processing and social judgments: Face inversion particularly disrupts inferences of human-relevant traits (Wilson, Young, Rule, & Hugenberg; 2018) / Journal of Experimental Social Psychology
 *Keywords: Trait inferences, Person perception, Configural processing*
 
 **Background:**
@@ -223,8 +223,8 @@ In Study 1, we randomly assigned participants to rate the trustworthiness or dom
 Consistent with our hypothesis that configural processing plays a greater role in inferences of human-specific traits, we predicted that the correlation between upright and inverted faces would be stronger for the dominance than trustworthiness ratings.
 
 
-###Task switches / Affective Priming{#taskSwitch}
-####The affective twitches of task switches: Task switch cues are evaluated as negative (Vermeylen, Braem, & Notebaert, 2019) / Cognition
+### Task switches / Affective Priming{#taskSwitch}
+#### The affective twitches of task switches: Task switch cues are evaluated as negative (Vermeylen, Braem, & Notebaert, 2019) / Cognition
 *Keywords: Cognitive Control; Task Switching; Emotion; Affective Priming; Negative Affect*
 
 **Hypothesis/Background:**
@@ -234,8 +234,8 @@ Consistent with the recent theoretical frameworks mentioned above, and the idea 
 In the task switching paradigm, target stimuli consisted of 320 high-frequent words each presented only once. All words could be judged on whether they were living or non-living, and whether they were smaller or larger than a basketball (see also, Braem, 2017; Schneider, 2015). Both dimensions were crossed orthogonally resulting in four lists of 80 words (see OSF). The Dutch words for SWITCH, CHANGE, REPEAT and AGAIN (WISSEL, VERANDER HERHAAL, OPNIEUW) were used as transition cues. Participants had to alternate between tasks when they saw the words SWITCH or CHANGE and had to repeat the task when they saw the words REPEAT or AGAIN. Each combination of transition cue and task was equiprobable. On the first trial of each block, participants were shown which task to start with (ALIVE? or SIZE?). If participants made a mistake, they would receive the message "WRONG!" along with the task of the erroneous trial (ALIVE? or SIZE?).
 In the affective priming procedure, target stimuli consisted of 60 Chinese pictographs. Participants had to evaluate these targets as rather negative or rather positive with the opposite hand that was used during task switching (D for negative, F for positive; or J for negative, K for positive). The transition cues functioned as prime stimuli. The Stimulus Onset Asynchrony (SOA) between the prime and the target was varied because it is a potential moderator of the priming effect (Fritz & Dreisbach, 2015), and could be 200, 400 or 800 ms. Each of the prime - SOA combinations were equiprobable, and each of the Chinese pictographs was paired once with each transition cue. To ensure processing of the prime stimuli, catch trials were dispersed throughout the task: When participant saw the word "PAPER" (PAPIER), they had to press space bar instead of evaluating the target.
 
-###Magnitude / Number perception{#numbers}
-####Compatibility between Physical Stimulus Size and Left-right Responses: Small is Left and Large is Right (Wühr & Seegelke, 2018) / Journal of Cognition
+### Magnitude / Number perception{#numbers}
+#### Compatibility between Physical Stimulus Size and Left-right Responses: Small is Left and Large is Right (Wühr & Seegelke, 2018) / Journal of Cognition
 *Keywords: ATOM; compatibility; congruency; stimulus size; response position; SNARC*
 
 **Background:**
