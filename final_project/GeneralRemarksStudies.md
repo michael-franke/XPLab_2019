@@ -13,7 +13,7 @@ You will encounter the following "situation":
 
 * The used stimuli are seldom available
 
-* The statistical methods differ from what you have learned sofar in the course
+* The statistical methods differ from what you have learned so far in the course
 
 That's why you should select only one experiment and try to understand the overall idea of this particular experiment: What are the hypotheses of the author(s)? Which factors play a role? How did they try to test their hypotheses? 
 Once you have understood the general aim you often can break down the hypotheses and for example test only a subset instead of all factors. 
@@ -48,6 +48,9 @@ A guideline from designing an experiment until writing a report will follow.
 
 #### [Magnitude / Number perception](#numbers)
 12.	Compatibility between Physical Stimulus Size and Left-right Responses: Small is Left and Large is Right (Wühr & Seegelke, 2018) / Journal of Cognition	
+
+#### [decision making / belief learning / exploration](#bandits)
+13.	Generalization guides human exploration in vast decision spaces (Wu et al., 2018) / Nature Human Behavior
 
 
 ## In more detail
@@ -245,3 +248,12 @@ In Experiment 1, size was the relevant stimulus feature and we varied the S-R ma
 In Experiment 1 we investigated the relationship between physical stimulus size and horizontal response position with a classic S-R compatibility task. Therefore, stimulus size (small vs. large) was the relevant stimulus feature and participants responded with two S-R mapping conditions in different blocks. In the compatible mapping condition, the small stimulus required a left-hand response, whereas the large stimulus required a right-hand response. In the incompatible mapping condition, the small stimulus required a right-hand response, and the large stimulus required a left-hand response. 
 Our aim was to conceptually replicate a previous demonstration of the stimulus size - response location compatibility effect by Ren et al. (2011, Experiment 2), and to determine whether the effect would again be more pronounced for the right-hand response.
 
+### Decision making / belief learning / exploration <a name="bandits"></a>
+#### Generalization guides human exploration in vast decision spaces (Wu et al., 2018) / Nature Human Behavior
+*Keywords: bandit problems; decision under uncertainty; belief learning; generalization; information foraging
+
+**Background:**
+We introduce the spatially correlated multi-armed bandit as a paradigm for studying how people use generalization to guide search in larger problem spaces than traditionally used for studying human behaviour. We show that participants solve the exploration–exploitation dilemma by optimistically inflating expectations of reward by the underlying uncertainty, with recoverable evidence for the separate phenomena of directed (towards reducing uncer- tainty) and undirected (noisy) exploration.
+
+**Method:**
+(Experiment 1) Participants searched for rewards on a 1 × 30 grid world, in which each tile represented a reward-generating arm of the bandit (Fig. 1a). The mean rewards of each tile were spatially correlated, with stronger correlations in smooth than in rough environments (between subjects; Fig. 1b). Participants were either assigned the goal of accumulating the largest average reward (accu- mulation condition), thereby balancing exploration–exploitation, or of finding the best overall tile (maximization condition), an explora- tion goal directed towards finding the global maximum. In addition, the search horizons (that is, number of clicks) alternated between rounds (within subject; short = 5 versus long = 10), with the order counterbalanced between subjects. We hypothesized that if function learning guides search behaviour, participants would perform better and learn faster in smooth environments, in which stronger spatial correlations reveal more information about nearby tiles.
