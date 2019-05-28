@@ -6,7 +6,7 @@ Note. You can find the papers in the according folder on StudIp ("Final project/
 
 ## Experimental Psychology - In general
 
-* **General remarks about the whole process of conducting an experiment** (Wichertsetal(2016)_Degrees of Freedo in Planning, Running, Analyzing, and Reporting Psychological Studies_A checklist to Avoid p-Hacking.pdf)
+* **General remarks about the whole process of conducting an experiment** (Wichertsetal(2016)_Degrees of Freedom in Planning, Running, Analyzing, and Reporting Psychological Studies_A checklist to Avoid p-Hacking.pdf)
 
 * **Checklist with general remarks about the content and structure of a scientific report** (Checklist for Essays and Practicals 2014_general.pdf)
 
