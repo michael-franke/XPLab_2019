@@ -18,7 +18,7 @@ You will encounter the following "situation":
 That's why you should select only one experiment and try to understand the overall idea of this particular experiment: What are the hypotheses of the author(s)? Which factors play a role? How did they try to test their hypotheses? 
 Once you have understood the general aim you often can break down the hypotheses and for example test only a subset instead of all factors. 
 
-A guideline from designing an experiment until writing a report will follow.
+Guidelines from designing an experiment until writing a report can be found in "Method_Process&Report".
 
 ## Content
 #### [Anchoring Effect](#anchoringEffect)
