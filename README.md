@@ -25,3 +25,5 @@ session | day | topic | material
 - [R for Data Science](http://r4ds.had.co.nz) is our main resource on R and the tidyverse
 
 - if you are interested in reasons for doing science openly, read [7 deadly sins](https://press.princeton.edu/titles/10970.html)
+
+- more information about the [final course project](final_project/GeneralRemarks\&Studies.md)
