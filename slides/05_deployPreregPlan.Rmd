@@ -1,0 +1,178 @@
+---
+title: "Deployment, preregistration & a plan of action"
+author: "Michael Franke"
+output:
+  revealjs::revealjs_presentation:
+    theme: white 
+    highlight: pygments
+    center: false
+    transition: none
+    background_transition: none
+    css: mireveal.css
+    smaller: true
+    includes:
+      after_body: mireveal_includes.html
+---
+
+```{r setup, include=FALSE, echo = FALSE, message = FALSE}
+knitr::opts_chunk$set(echo=TRUE, warning=FALSE, message=FALSE, dev.args = list(bg = 'transparent'), fig.align='center')
+require('tidyverse')
+theme_set(theme_bw() + theme(plot.background=element_blank()) )
+```
+
+## road map for today
+
+<span style = "color:white"> &nbsp; </span>
+
+- deployment in _babe
+
+<span style = "color:white"> &nbsp; </span>
+
+- preregistration @ OSF
+    
+<span style = "color:white"> &nbsp; </span>
+
+- plan of action for group projects
+
+# deployment in _babe
+
+## deployment in _babe
+
+deployment := handling results & recruiting participants
+
+<span style = "color:white"> &nbsp; </span>
+
+<span style = "color:white"> &nbsp; </span>
+
+1. **debug mode:**
+    - execute experiment locally in your browser
+    - show results of in HTML-table in browser
+
+<span style = "color:white"> &nbsp; </span>
+
+
+2. **live experiment:**
+    - experiment is hosted on a web-server
+        - possibly: hosted on a local machine (think: lab computer / field work)
+    - anyone can follow a link to do the experiment
+        - possibly: participants are recruited and reimbursed via crowd-sourcing platform
+    - experimental results are stored in and retrieved from a database using the [_babe server app](https://babe-project.github.io/babe-docs/02_using_the_server_app/01_installation/)
+
+## going live with _babe
+
+deploy info is set when creating the _babe object, e.g., in `06_main.js`
+
+```javascript
+ babeInit({
+        ...
+        deploy: {
+            experimentID: "INSERT_A_NUMBER",
+            serverAppURL: "https://babe-demo.herokuapp.com/api/submit_experiment/",
+            // Possible deployment methods are:
+            // "debug" and "directLink"
+            // As well as "MTurk", "MTurkSandbox" and "Prolific"
+            deployMethod: "debug",
+            contact_email: "YOUREMAIL@wherelifeisgreat.you",
+            prolificURL: "https://app.prolific.ac/submissions/complete?cc=SAMPLE1234"
+        }
+        ...
+    });
+```
+
+most relevant for us is `directLink`
+
+more information in the [_babe docs](https://babe-project.github.io/babe-docs/03_deploying_experiments/01_configuration/)
+
+## using the `directLink` method
+
+<span style = "color:white"> &nbsp; </span>
+
+use `directLink` for experiments where participants receive a link and work from wherever they are; results are submitted to and retrieved from a database via the internet
+
+<span style = "color:white"> &nbsp; </span>
+
+- for your project use the demo app: [https://babe-demo.herokuapp.com](https://babe-demo.herokuapp.com)
+    - alt.: install your own app following [installation instructions](https://babe-project.github.io/babe-docs/02_using_the_server_app/01_installation/)
+    - you then also need to change the address in `serverAppURL`
+- set `deployMethod: "directLink"`
+- visit the _babe server app at [https://babe-demo.herokuapp.com/](https://babe-demo.herokuapp.com/) & create a new experiment
+    - note the experimentID that is automatically asigned & enter it in `experimentID`
+    - the experiment must be set to live mode in the server app (otherwise it refuses data submissions)
+- retrieve your results in the browser at address [https://babe-demo.herokuapp.com/](https://babe-demo.herokuapp.com/)
+
+## hosting the experiment
+
+- to make your experiment executable as a website, it needs to be hosted somewhere
+- we hosting on Netlify, and provide [instructions for hosting](https://babe-project.github.io/babe-docs/03_deploying_experiments/04_hosting_on_netlify/)
+  - alternatively, you can also host your experiment using GitHub Pages
+  - then you will have to upload the content of the folder `node_modules` for version control 
+    - this is **not** preferred!
+
+# preregistration reports
+
+## preregistration reports
+
+<span style = "color:white"> &nbsp; </span>
+
+irrevocable public commitment to experimental design/materials/procedure and statistical analysis
+
+<span style = "color:white"> &nbsp; </span>
+
+two kinds of analyses (to be distinguished clearly in your paper/report):
+
+1. **confirmatory:**
+    - the experiment was conducted with the intention to test a hypothesis
+        - ideally preregister this!
+        
+<span style = "color:white"> &nbsp; </span>
+        
+        
+2. **exploratory:**
+    - explore your data to generate new hypotheses
+        - if anything interesting comes up: preregister and run a new study to test the new hypothesis
+
+
+## two kinds of preregistration reports
+
+<span style = "color:white"> &nbsp; </span>
+
+
+1. **peer-reviewed preregistration:**
+    - journal reviewers decide whether your paper will be published based on your preregistration report
+
+<span style = "color:white"> &nbsp; </span>
+
+
+2. **simple preregistration:**
+    - just commit in public using a suitable platform, e.g., from the [Open Science Foundation](https://osf.io)
+    - this is what we will exercise doing in this course
+        - we will prepare a template in which you will:
+            - describe the experiment
+            - specify your hypotheses for (confirmatory) testing
+            - specify how exactly you are going to prepare and analyze the data
+
+
+    
+# plan of action
+
+## plan of action for your group project
+
+1. team up, find topic, divide roles
+2. visit us with a preliminary plan, which we will make more concrete together
+    - which study, which materials, how to realize (lab or online, ...)
+3. make a schedule and communicate it with us
+4. plan & implement experiment
+    - most importantly: what counts as a "direct replication"?
+5. pilot your experiment for debugging (2-3 participants (this could be you!))
+6. implement statistical analyses based on debug-pilot data
+7. write preregistration report
+    - include analysis scripts
+    - wait for feedback from us before continuing
+8. run experiment
+9. write paper
+
+## how to get participants
+
+- everybody in this class is kindly requested to take part in all of the other groups' experiments
+- rely on friends and colleagues
+- it is possible (but we do not require or even recommend) to finance crowd-sourced external participants
