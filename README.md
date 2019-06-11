@@ -27,3 +27,5 @@ session | day | topic | material
 - if you are interested in reasons for doing science openly, read [7 deadly sins](https://press.princeton.edu/titles/10970.html)
 
 - more information about the [final course project](final_project/GeneralRemarksStudies.md)
+
+- [preregistration report template](handouts/07_preregistration_template.md)
