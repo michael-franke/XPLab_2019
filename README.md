@@ -29,3 +29,5 @@ session | day | topic | material
 - more information about the [final course project](final_project/GeneralRemarksStudies.md)
 
 - [preregistration report template](handouts/07_preregistration_template.md)
+
+- [hints for creating models in R with brms-package](handouts/Analysis_plan_N_F.pdf)
